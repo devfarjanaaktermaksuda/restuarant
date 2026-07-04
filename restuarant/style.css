@@ -1,0 +1,188 @@
+.container{
+    max-width: 1280px;
+}
+body{
+    font-family: "Birthstone", cursive;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+/*===header part start===*/
+header .navbar {
+    background: rgb(15, 15, 15);
+
+}
+header .navbar .navbar-nav{
+    gap: 48px;
+}
+header .navbar .nav-link{
+    font-size: 62px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+ button{
+    border-radius: 64px;
+    border: none;
+    padding: 24px 48px;
+    color: #FFFFFF;
+    background: rgb(28, 62, 82);
+    font-size: 32px;
+}
+/*===header part end===*/
+/*===banner part start===*/
+.bannerback{
+    background: url();
+}
+#banner {
+    background: url(./images/banner.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    padding: 128px;
+}
+#banner .title h1{
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: -1%;
+    margin-top: 16px;
+    color: #FFFFFF;
+
+}
+#banner .title h2{
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: -1%;
+    color: #FFFFFF;
+}
+#banner .btn{
+     border-radius: 16px;
+    border: none;
+    padding: 16px 24px;
+    color: #FFFFFF;
+    background: rgb(28, 62, 82);
+    font-size: 32px;
+    margin-top: 50px;
+}
+#banner .title p{
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: -1%;
+    color: #FFFFFF;
+    padding: 16px;
+    padding: 16px;
+}
+/*===banner part end===*/
+/*===preview part start===*/
+#preview{
+    margin-top: 16px;
+}
+#preview img{
+   width: 100%;
+}
+#preview .about{
+    margin-top: 16px;
+    background:url(./images/text\ backgeound.webp) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+     padding: 50px 50px;
+}
+
+#preview .about h2{
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: -1%;
+    color: #474747;;
+}
+#preview .about h4{
+    font-size: 38px;
+    font-weight: 500;
+    letter-spacing: -1%;
+    color: #474747;
+}
+#preview .about p{
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: -1%;
+    color: #474747;
+}
+#preview .about img{
+    height: 300px;
+    width: 700px;
+}
+ .imglogo{
+    margin: 0 auto;
+    display: block;
+}
+#dishes .stthree{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 64px;
+}
+#dishes .lastthree{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 64px;
+}
+#dishes .card{
+    height: 600px;
+    width: 500px;
+}
+#dishes .image{
+    height: 300px;
+    width: 100%;
+}
+#dishes .card-title{
+    font-size: 36px;
+    font-size: 700;
+}
+#dishes .card-text{
+    font-size: 18px;
+    max-width: 512px;
+    font-weight: 400;
+    color: #757575;
+}
+#dishes .price{
+    font-weight: 500;
+    font-size: 26px;
+}#whychooseus .skill-area .skill-card{
+    width: 267px;
+    background:url(./images/text\ backgeound.webp) no-repeat center;
+    background-size: cover;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.33);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.33);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.33);
+margin-bottom: 64px;
+padding: 30px;
+   
+
+}
+#whychooseus .skill-area .skill-card h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#whychooseus .skill-area .skill-card p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 28px;
+    max-width: 201px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+#whychooseus .skill-area{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+/*===preview part end===*/

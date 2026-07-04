@@ -1,0 +1,62 @@
+@media (max-width:480px){
+  element.style {
+    background-color: white;
+}
+element.style {
+    width: 80px;
+}
+header .navbar .nav-link {
+    font-size: 30px;
+}
+button {
+    border-radius: 18px;
+    padding: 5px 10px;
+    font-size: 28px;
+}
+header .navbar .navbar-nav {
+    gap: 0px;
+}
+element.style {
+    padding: 40px 10px;
+    height: auto;
+}
+
+#banner .title h2 {
+    font-size: 15px;
+}
+#banner .title h1 {
+    font-size: 14px;
+    letter-spacing: 10%;
+    margin-top: -6px;
+}
+#banner .btn {
+    border-radius: 9px;
+    padding: 10px 16px;
+    font-size: 16px;
+    margin-top: 14px;
+
+}
+#banner .title p {
+    font-size: 18px;
+    padding: 0;   
+}
+#preview .about img {
+    height: 170px;
+    width: 300px;
+}
+#preview .about h2 {
+    font-size: 34px;
+}
+#preview .about h4 {
+    font-size: 24px;
+}
+#preview .about p {
+    font-size: 16px;
+}
+element.style {
+    height: 170px;
+    width: 300px;
+}
+
+
+}
